@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Guia del Navegador Firefox</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Capçalera -->
+    <header class="orange-bg text-white text-center py-3">
+        <div class="container-fluid">
+            <h1>Guia del Navegador Firefox  <img src="images/firefox-logo.png" alt="Logo Firefox"></h1>
+        </div>
+    </header>
+
+    <!-- Menú de navegació -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portada">Portada</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instalacio">Instal·lació i Ús</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulari">Formulari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobreMi">Sobre Mi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portada i informació bàsica -->
+    <section id="portada" class="section11">
+      <div class="container-fluid">
+          <h2 class="portadah2">Trieu el navegador que protegeix allò que és important</h2>
+          <p class="portadah2">Sense polítiques de privadesa tèrboles ni portes del darrere per als anunciants. Tan sols un navegador extremadament ràpid que no vendrà les vostres dades.</p>
+          <div class="row">
+              <div class="col-lg-4">
+                  <h3 class="toggle-text" onclick="toggleAdditionalText(this)">Compareu el Firefox amb altres navegadors (+)</h3>
+                  <p class="additional-text">Obteniu tota la velocitat i totes les eines sense cap invasió a la vostra privadesa. El Firefox Browser recull tan poques dades vostres que ni tan sols demanem una 
+                    adreça electrònica per baixar-lo. Això és perquè, a diferència d'altres navegadors, no tenim cap interès econòmic en seguir-vos mentre navegueu.
+                   <a href="/ca/firefox/browsers/compare/" class="mzp-c-cta-link">Vegeu la comparació amb altres navegadors</a>
+                </p>
+              </div>
+              <div class="col-lg-4">
+                  <h3 class="toggle-text" onclick="toggleAdditionalText(this)">Bloquem publicitat. Navegareu més ràpidament. (+)</h3>
+                  <p class="additional-text">Els anuncis distreuen i fan que les pàgines web es carreguin més lentament i alhora els seus elements de seguiment vigilen tots els moviments que feu a la xarxa. 
+                    El Firefox Browser bloca la majoria dels elements de seguiment automàticament, així no cal que us endinseu en els paràmetres de seguretat.</p>
+              </div>
+              <div class="col-lg-4">
+                  <h3 class="toggle-text" onclick="toggleAdditionalText(this)">El Firefox és per a tothom (+)</h3>
+                  <p class="additional-text">Disponible en més de 90 llengües i compatible amb màquines Windows, Mac y Linux, el Firefox funciona a tot arreu. Assegureu-vos que teniu el sistema operatiu actualitzat per obtenir la millor experiència.
+                    <a id="system-requirements" href="/ca/firefox/system-requirements/#windows" class="mzp-c-cta-link" data-cta-type="link" data-cta-text="Review system requirements">Comproveu els requisits del sistema</a></p>
+              </div>
+          </div>
+          <hr/>
+          <h5><strong>Llicència:</strong> El codi de Mozilla Firefox està llicenciat sota la <a href="https://www.mozilla.org/en-US/MPL/">Mozilla Public License.</a></h5>
+      </div>
+    </section>
+
+    <!-- Guia d’instal·lació i ús -->
+    <section id="instalacio" class="section12">
+      <div class="container-fluid">
+          <h2>Guia d’Instal·lació i Ús de Firefox</h2>
+          <div class="row">
+              <div class="col-lg-6">
+                  <h3>Instal·lació de Firefox</h3>
+                  <p><strong>Opció 1 -</strong> Descarrega <a href="https://www.mozilla.org/ca/firefox/download/thanks/">instal·lador de la web oficial</a></p>
+                  <p><strong>Opció 2 -</strong> Versió <a href="https://portableapps.com/apps/internet/firefox_portable">portable de PortableApps</a> si no tens permisos d'administrador al teu equip.</p>
+                  <p><strong>Opció 3 -</strong> Instal·la <a href="https://www.mozilla.org/ca/firefox/linux/"> el SO Linux</a> que el porta instal·lat en pràctcament totes les versions Desktop.</p>
+                  <p>Si tens més dubtes de les opcions de l'instal·lador les pots trobar <a href="https://www.mclibre.org/consultar/informatica/lecciones/ff-instalacion.html">al tutorial d'instal·lació de Firefox</a></p>
+                  <strong>Ja veuràs que és molt fàcil cercar qualsevol cosa!</strong>
+                  <!-- Afegir video d'instal·lació -->
+              </div>
+              <div class="col-lg-6">
+                  <h3>Ús de Firefox</h3>
+                  <p>Aprèn com utilitzar Firefox per a la navegació diària amb aquest video tutorial.</p>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/7Z7coHXHspM?si=2cJ1O695VXaLHLtX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <!-- Afegir video d'ús -->
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faqs" class="section11">
+      <div class="container-fluid">
+          <h2>Preguntes Freqüents (FAQs) sobre Firefox</h2>
+          <ul class="faqs-list">
+            <!-- Problema 1 -->
+            <li>
+                <h3>✅ Com puc actualitzar el meu navegador Firefox a la darrera versió?</h3>
+                <p>Per actualitzar Firefox, segueix aquests passos:
+                    <ol>
+                        <li>Obre el navegador Firefox al teu ordinador.</li>
+                        <li>Fes clic a les tres línies horitzontals a la part superior dreta de la finestra (conegudes com a "menú hamburguesa").</li>
+                        <li>Selecciona "Ajuda" i després "Sobre Firefox".</li>
+                        <li>Automàticament es comprovarà si hi ha actualitzacions. Si hi ha una nova versió disponible, es descarregarà i s'instal·larà.</li>
+                        <li>Reinicia Firefox per aplicar els canvis.</li>
+                    </ol>
+                </p>
+            </li>
+    
+            <!-- Problema 2 -->
+            <li>
+                <h3>✅ Com puc gestionar les meves extensions a Firefox?</h3>
+                <p>Per gestionar les extensions a Firefox, segueix aquests passos:
+                    <ol>
+                        <li>Fes clic a les tres línies horitzontals a la part superior dreta (menú hamburguesa).</li>
+                        <li>Selecciona "Complements".</li>
+                        <li>Dins de la pestanya "Complements", pots gestionar les extensions, temes i altres complements.</li>
+                        <li>Pots instal·lar nous complements fent clic a "Obteniu-ne més" o gestionar els ja instal·lats a "Extensions".</li>
+                    </ol>
+                </p>
+            </li>
+    
+            <!-- Problema 3 -->
+            <li>
+                <h3>✅ Com puc netejar la caché i les dades del navegador a Firefox?</h3>
+                <p>Per netejar la caché i les dades a Firefox, segueix aquests passos:
+                    <ol>
+                        <li>Fes clic a les tres línies horitzontals a la part superior dreta (menú hamburguesa).</li>
+                        <li>Selecciona <strong>"Opcions" (o "Preferències" en sistemes basats en Linux)</strong>.</li>
+                        <li>Navega a la pestanya <strong>"Privadesa i seguretat".</strong></li>
+                        <li>A la secció "Historial", fes clic a <strong>"Netejar historial".</strong></li>
+                        <li>Selecciona les opcions que vols netejar i fes clic a "Neteja ara".</li>
+                        <li>Tanca i reinicia Firefox per aplicar els canvis.</li>
+                    </ol>
+                </p>
+            </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Secció Formulari Google -->
+    <section id="formulari" class="section12">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>Formulari d'incidències</h3>
+                <p>Si tens suggeriments o problemes amb Firefox, si us plau, comparteix-los amb nosaltres mitjançant aquest formulari:</p>
+                <a href="URL_del_formulari" target="_blank">Enllaç al formulari</a>
+                <hr/>
+                <h3>Informació General</h3>
+                <p>Sóc un apassionat del disseny web amb anys d'experiència. Estic aquí per ajudar-vos! Teniu una mostra dels meus projectes a Git: 
+                    <a href="https://github.com/torvalds" target=”_blank” ><img src="images/github.webp" height='32' width='32' class="icon"></a>
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h3>Ubicació</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.5984750757502!2d2.1151857805441607!3d41.36436640334322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498e7c3a7aa05%3A0x478782c735a4c713!2sInstitut%20p%C3%BAblic%20Proven%C3%A7ana!5e0!3m2!1sca!2ses!4v1700756805038!5m2!1sca!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+            </div>
+        </div>   
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="orange-bg">
+        <div class="container-fluid">
+            <p>Contingut fet amb molt ♥ i llicènciat amb <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es">Creative Commons 4.0 CC-BY-NC-SA</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts aquí per millorar velocitat càrrega  -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script>
+        function toggleAdditionalText(element) {
+            // Troba l'element de text addicional corresponent
+            var additionalText = element.nextElementSibling;
+
+            // Alterna la classe 'show' per canviar la visibilitat
+            if (additionalText.classList.contains('show')) {
+                additionalText.classList.remove('show');
+            } else {
+                additionalText.classList.add('show');
+            }
+        }
+
+      // Pots afegir més codi JavaScript aquí si és necessari
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

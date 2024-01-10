@@ -1,0 +1,67 @@
+body {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.orange-bg {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.section11 {
+    background-color: rgb(105, 13, 105);
+    color: white;
+}
+
+.section12 {
+    background-color: white;
+    color: rgb(105, 13, 105);
+}
+
+a:hover {
+    color: #ffd68b;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.additional-text {
+    display: none; /* Inicialment, oculta el text addicional */
+}
+
+.show {
+    display: block !important; /* Mostra el text addicional si té la classe 'show' */
+}
+
+h2 {
+    font-style: bold;
+    text-decoration-line: underline;
+    margin-bottom: 1rem; /* Afegir marge inferior a títols i paràgrafs */
+    margin-top: 1rem; /* Afegir marge superior a títols i paràgrafs */
+}
+
+h3 {
+    margin-bottom: 1rem; /* Afegir marge inferior a títols i paràgrafs */
+    margin-top: 1rem; /* Afegir marge superior a títols i paràgrafs */
+}
+
+.portadah2 {
+    color: #FFA500;
+    font-style: bold;
+}
+
+a {
+    font-size: 1.5 rem;
+}
+
+.toggle-text:hover {
+    color: #FFA500;
+    text-decoration-line: underline;
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.5s ease; /* Canvia 0.5s al que desitgis */
+}
+
+ul {
+    list-style-type: none;
+}

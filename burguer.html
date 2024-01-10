@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #007bff;
+      padding: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 15px;
+      cursor: pointer;
+    }
+
+    #menu-icon {
+      display: none;
+      cursor: pointer;
+      font-size: 24px;
+      color: #fff;
+    }
+
+    @media only screen and (max-width: 768px) {
+      nav a {
+        margin: 5px 0;
+        display: none;
+      }
+
+      #menu-icon {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pàgina Responsive amb Menú d'Hamburguesa</h1>
+  </header>
+
+  <nav>
+    <a href="#" id="home">Inici</a>
+    <a href="#" id="about">Sobre nosaltres</a>
+    <a href="#" id="services">Serveis</a>
+    <a href="#" id="contact">Contacte</a>
+    <div id="menu-icon">&#9776;</div>
+  </nav>
+
+  <section id="home">
+    <h2>Benvingut a la nostra pàgina web!</h2>
+    <p>Aquí trobaràs informació interessant sobre nosaltres i els nostres serveis.</p>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Nosaltres</h2>
+    <p>Som un grup d'estudiants apassionats per la creació de pàgines web atractives i funcionals.</p>
+  </section>
+
+  <section id="services">
+    <h2>Els Nostres Serveis</h2>
+    <p>Oferim serveis de desenvolupament web, disseny responsiu i més.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contacta'ns</h2>
+    <p>Estem encantats de respondre a les teves preguntes. Envia'ns un missatge!</p>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script>
+    document.getElementById('menu-icon').addEventListener('click', toggleMenu);
+
+    function toggleMenu() {
+      var navLinks = document.querySelectorAll('nav a');
+      navLinks.forEach(function(link) {
+        link.style.display = (link.style.display === 'block' || link.style.display === '') ? 'none' : 'block';
+      });
+    }
+  </script>
+
+</body>
+</html>
