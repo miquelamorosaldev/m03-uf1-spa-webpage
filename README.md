@@ -6,5 +6,6 @@ Single Page static Website with HTML, CSS, JS and Boostrap
 
 https://codepen.io/miquelamorosaldev/pen/oNmqwqr
 
+## Lliçència
 
 Contingut fet amb molt ♥ i llicènciat amb Creative Commons 4.0 CC-BY-NC-SA
